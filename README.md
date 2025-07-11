@@ -1,6 +1,6 @@
 # API Documentation
 
-### API Documentation With Example(Postman) :
+### API Documentation With Example (Postman) :
 
 ## Table of Contents
 

@@ -12,7 +12,7 @@ const app: Application = express();
 
 export const corsOptions = {
   origin: [
-    'https://just-fix-client.vercel.app',
+    'https://fastfix-client.vercel.app',
     'http://localhost:3000',
     'http://localhost:3001',
   ],

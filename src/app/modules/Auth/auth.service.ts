@@ -18,7 +18,7 @@ const loginUser = async (payload: {
   const user = await User.findOne({ email: payload.email });
 
   if (!user) {
-    throw new ApiError(httpStatus.NOT_FOUND, 'ইউজার খুঁজে পাওয়া যায়নি');
+    throw new ApiError(httpStatus.NOT_FOUND, 'User Not Found');
   }
 
   // Verify password
